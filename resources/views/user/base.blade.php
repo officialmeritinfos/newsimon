@@ -355,7 +355,6 @@
     new ClipboardJS('.copy');
 </script>
 @stack('js')
-<script src="//code.jivosite.com/widget/5mlmgmHz2y" async></script>
 <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
     var _smartsupp = _smartsupp || {};
