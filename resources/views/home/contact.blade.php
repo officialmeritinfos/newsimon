@@ -1,23 +1,31 @@
 @extends('home.base')
 @section('content')
-    <!-- Page Banner Area Start -->
-    <div class="page__banner" data-background="{{asset('home/img/pages/page-banner.jpg')}}">
+
+    <section class="page-header">
+        <div class="page-header__bg" style="background-image: url({{asset('home/images/backgrounds/page-header-bg.jpg')}});">
+        </div>
+        <div class="page-header__shape-2 float-bob-x">
+            <img src="{{asset('home/images/shapes/page-header-shape-2.png')}}" alt="">
+        </div>
+        <div class="page-header__shape-1 float-bob-y">
+            <img src="{{asset('home/images/shapes/page-header-shape-1.png')}}" alt="">
+        </div>
+        <div class="page-header__shape-3 float-bob-x">
+            <img src="{{asset('home/images/shapes/page-header-shape-3.png')}}" alt="">
+        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page__banner-content">
-                        <span>{{$pageName}}</span>
-                        <ul>
-                            <li><a href="{{url('/')}}">Home</a><span>|</span></li>
-                            <li>{{$pageName}}</li>
-                        </ul>
-                        <h1>{{$pageName}}</h1>
-                    </div>
+            <div class="page-header__inner">
+                <h2>{{$pageName}}</h2>
+                <div class="thm-breadcrumb__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="{{url('/')}}">Home</a></li>
+                        <li><span>/</span></li>
+                        <li>{{$pageName}}</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Page Banner Area End -->
+    </section>
 
     <!-- Business One -->
     <div class="contact__three pb-0 section-padding">
