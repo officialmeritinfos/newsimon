@@ -97,6 +97,9 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-xl-12">
+                    <img src="{{asset('home/images/certificate.jpeg')}}" />
+                </div>
             </div>
         </div>
     </section>
