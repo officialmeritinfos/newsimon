@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-xl-12">
-                    <img src="{{asset('home/images/certificate.jpeg')}}" />
+                    <img src="{{asset('envestacert.jpg')}}" />
                 </div>
             </div>
         </div>
