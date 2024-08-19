@@ -73,7 +73,7 @@
             <div class="main-menu-three__wrapper">
                 <div class="main-menu-three__wrapper-inner">
                     <div class="main-menu-three__logo">
-                        <a href="{{url('/')}}"><img src="{{asset('home/images/'.$web->logo)}}" alt=""></a>
+                        <a href="{{url('/')}}"><img src="{{asset('home/images/'.$web->logo)}}" alt="" style="width: 150px;"></a>
                     </div>
                     <div class="main-menu-three__wrapper-inner-content">
                         <div class="main-menu-three__top">
